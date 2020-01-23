@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(135, 110, 215);
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.city {
+  align-self: center;
+  width: 70%;
+  height: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.wrapper-checkbox {
+  align-self: center;
+  width: 70%;
+  display:flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.checkbox {
+  position: relative;
+  top: 7px;
+  right: 2px;
+  width: 25px;
+  height: 25px;
+}
+
+.wrapper-buttons {
+  align-self: center;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+button {
+  width: 200px;
+  margin-top: 30px;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(65, 44, 132);
+  background-color: white;
+  color: whitesmoke;
+  background: blueviolet;
+  font-size: large;
+  cursor: pointer;
+}
